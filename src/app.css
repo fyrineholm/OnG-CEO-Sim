@@ -1,0 +1,27 @@
+.hidden {
+	display: hidden;
+	opacity: 0;
+	position: fixed;
+	transition: 750ms;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+* {
+	transition: 250ms;
+}
+
+div {
+	overflow: hidden;
+	border: 1px solid black;
+}
